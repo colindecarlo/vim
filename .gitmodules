@@ -37,9 +37,12 @@
 [submodule "vim/bundle/vim-mustache-handlebars"]
 	path = vim/bundle/vim-mustache-handlebars
 	url = https://github.com/mustache/vim-mustache-handlebars.git
-[submodule "vim/bundle/vim-surround"]
-	path = vim/bundle/vim-surround
-	url = https://github.com/tpope/vim-surround.git
 [submodule "vim/bundle/vmustache"]
 	path = vim/bundle/vmustache
 	url = https://github.com/tobyS/vmustache.git
+[submodule "vim/bundle/vim-abolish"]
+	path = vim/bundle/vim-abolish
+	url = https://github.com/tpope/vim-abolish.git
+[submodule "vim/bundle/vim-surround"]
+	path = vim/bundle/vim-surround
+	url = https://github.com/tpope/vim-surround.git
