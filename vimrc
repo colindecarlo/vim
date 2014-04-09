@@ -160,3 +160,7 @@ nnoremap <buffer> <C-p> :call pdv#DocumentWithSnip()<CR>
 
 " pep8 checker
 let g:pep8_map='<F8>' 
+
+map :W :w
+map :Q :q
+map :Wq :wq
