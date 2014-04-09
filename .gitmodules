@@ -43,3 +43,6 @@
 [submodule "vim/bundle/vmustache"]
 	path = vim/bundle/vmustache
 	url = https://github.com/tobyS/vmustache.git
+[submodule "vim-surround"]
+	path = vim-surround
+	url = https://github.com/tpope/vim-surround.git
