@@ -130,6 +130,9 @@ au FileType python setlocal expandtab shiftwidth=4 tabstop=4 colorcolumn=80
 " php 120 colums
 au FileType php setlocal colorcolumn=120
 
+" twig (maybe sorta)
+au FileType htmljinja setlocal expandtab shiftwidth=2 tabstop=2
+
 " NERD_tree
 map <F7> :NERDTreeToggle<CR>
 set clipboard=unnamed
