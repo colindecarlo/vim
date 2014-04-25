@@ -55,3 +55,6 @@
 [submodule "vim/bundle/vim-scala"]
 	path = vim/bundle/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
+[submodule "vim/bundle/vim-plugin-dirsettings"]
+	path = vim/bundle/vim-plugin-dirsettings
+	url = https://github.com/mantiz/vim-plugin-dirsettings.git
