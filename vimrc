@@ -1,6 +1,18 @@
+" install the dirsettings plugin
+call dirsettings#Install()
+
 " start pathogen
 runtime bundle/vim-pathogen/autoload/pathogen.vim
 execute pathogen#infect()
+
+" powerline
+set rtp+=$HOME/.local/lib/python2.7/site-packages/powerline/bindings/vim/
+
+" Always show statusline
+set laststatus=2
+
+" Use 256 colours (Use this setting only if your terminal supports 256 colours)
+set t_Co=256
 
 " Source the vimrc after saving it
 autocmd bufwritepost .vimrc source $MYVIMRC
@@ -50,12 +62,6 @@ set history=100
 
 " Enable incremental search
 set incsearch
-
-" set the status line
-set statusline=%(%h\ %f\ %m%r\ %y\ %{fugitive#statusline()}%)%=%(%c\ %l/%L\ %p%%%)
-
-" Always show status line, even for one window
-set laststatus=2
 
 " Jump to matching bracket for 2/10th of a second (works with showmatch)
 set matchtime=2
@@ -167,3 +173,12 @@ let g:pep8_map='<F8>'
 map :W :w
 map :Q :q
 map :Wq :wq
+
+" Ultisnips
+" Trigger configuration.
+let g:UltiSnipsExpandTrigger="<C-e>"
+let g:UltiSnipsJumpForwardTrigger="<C-b>"
+let g:UltiSnipsJumpBackwardTrigger="<C-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
