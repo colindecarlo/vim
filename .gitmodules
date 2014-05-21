@@ -58,3 +58,6 @@
 [submodule "vim/available-bundles/vim-plugin-dirsettings"]
 	path = vim/available-bundles/vim-plugin-dirsettings
 	url = https://github.com/mantiz/vim-plugin-dirsettings.git
+[submodule "vim/available-bundles/YouCompleteMe"]
+	path = vim/available-bundles/YouCompleteMe
+	url = https://github.com/Valloric/YouCompleteMe.git
